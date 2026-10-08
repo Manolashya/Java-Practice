@@ -2,7 +2,7 @@ class TestStringConcatenation {
     public static void main(String[] args) {
         String s="Sachin"+" Tendulkar";
         System.out.println(s);
-        String sn = 50+30+"Sachin"+40+40;
+        String sn = 50+30+"Sachin"+40+40; //80Sachin4040- this output was because before string it uses arithmetic operator but after string it uses as concatenation operator.
         System.out.println(sn);
         String s1="Sachin";
         String s2="Tendulkar";
